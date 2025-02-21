@@ -15,7 +15,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    
+    padding: 0px;
 }
 
 header menu iframe{
@@ -31,4 +31,27 @@ header menu ul li{
 header menu ul li a{
     display: block;
     text-decoration: none;
+}
+
+#um{
+    background: url(../imagens/crash-bandicoot-1-2.jpg) center center /cover;
+}
+
+#dois{
+    background: url(../imagens/Sem\ Título-2.png) center center /cover;
+}
+
+#tres{
+    background: url(../imagens/Crash_Bandicoot_3_capa.png) center center /cover;
+}
+
+.imagem{ 
+    width: 150px;
+    height: 180px;
+}
+
+section.imagem{
+    width: 800px;
+    height: 800px;
+    background-color: black;
 }
