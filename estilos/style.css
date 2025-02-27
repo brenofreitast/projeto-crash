@@ -4,12 +4,12 @@
     VERSÃO MOBILE
 
     CORES
-        #3D21C7
+        #3D21C7 body
         #2800F0
-        #46359E
-        #413870
-        #322E45
-        #33313B
+        #46359E 
+        #413870 
+        #322E45 body
+        #1f1c2b
 */
 
 *{
@@ -18,40 +18,88 @@
     padding: 0px;
 }
 
-header menu iframe{
+body{
+    width: 100vw;
+    height: 1250px;
+    background-color: rgb(58, 28, 28);
+}
+
+.header{
+    background-color: #1f1c2b;
+    width: 100vw;
+    min-height: 9.1rem;
+    box-shadow: 0px 0px 5px black;
+}
+
+.header h1, h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header_nav{
+
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.header_nav img{
+    height: 16px;
+    width: 16px;
+    padding-top: 10px;
+}
+
+.header_nav input{
+    color: white;
+    width: 130px;
+    font-size: 1em;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.header__pesquisar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(82, 82, 82);
+    border-radius: 300px;
+    padding: 0px 10px;
     width: 150px;
-    height: 180px;
 }
 
-header menu ul li{
-    list-style-type: none;
+.main_conteudo{
+    background-color: #1f1c2b;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
 }
 
+img{
+    width: 180px;
+    height: 250px;
+}
 
-header menu ul li a{
-    display: block;
+.jogo h2{
+    padding: 10px 20px;
+    
+}
+
+.conteudo{
+    display: flex;
+    padding: 20px;
+}
+
+.conquistas{
+    color: white;
+    padding-left: 20px;
+}
+
+a{
     text-decoration: none;
-}
-
-#um{
-    background: url(../imagens/crash-bandicoot-1-2.jpg) center center /cover;
-}
-
-#dois{
-    background: url(../imagens/Sem\ Título-2.png) center center /cover;
-}
-
-#tres{
-    background: url(../imagens/Crash_Bandicoot_3_capa.png) center center /cover;
-}
-
-.imagem{ 
-    width: 150px;
-    height: 180px;
-}
-
-section.imagem{
-    width: 800px;
-    height: 800px;
-    background-color: black;
+    color: white;
 }
