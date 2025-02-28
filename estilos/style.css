@@ -96,13 +96,20 @@ img{
 
 .conteudo{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
 }
 
 .conquistas{
+    font-size: 0.7em;
     color: white;
     padding-left: 20px;
+    text-align: justify;
+}
+
+.conquistas a{
+    color: yellow;
+    font-weight: bold;
 }
 
 a{
