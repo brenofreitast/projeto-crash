@@ -4,26 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platina Crash Bandicoot</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/c1_style.css">
+    <link rel="shortcut icon" href="imagens/icons8-bater-bandicoot-96.png" type="image/x-icon">
 
 </head>
 <body>
-    <header>
+    <div class="header">
         <h1>CRASH BANDICOOT</h1>
         <h2>Detonado</h2>
-    </header>
+        <div class="header_nav">
+            <nav class="header__pesquisar">
+                <label for="ipesquisar">
+                    <img src="imagens/search.png" alt="">
+                </label>
+                <input type="search" name="pesquisar" id="ipesquisar">
+            </nav>
+        </div>
+    </div>
 
     <main>
-        <p>Total de conquistas:</p>
-        <p>24</p>
+        <section class="main_conteudo">
+            <div class="header_conteudo">
+                <h3>Fase 1</h3>
+                <p>N. SANITY BEACH</p>
+                <p><abbr title="Gema Cinza (1) - Relíquia do Tempo">Objetivos para conquistas: 2</abbr></p>
+            </div>
 
-        <section class="primeira-fase">
-            <h3>Fase 1</h3>
-            <p>N. SANITY BEACH</p>
-            <section class="imagem">
-                <img src="" alt="Imagem da primeira fase">
+            <section class="conteudo_fase">
+                <p>Objetivo: É possivel destruir todas as caixas na primeira jogatina.</p><br>
+                <img src="imagens/N. SANITY BEACH.png" alt="" class="imagem">
+                <p>Após destruir todas as caixas da fase. (GEMAS 1/20)</p>
+                <img src="imagens/gem.jpg" alt="" class="gema">
+
+                <p>Desafio das Relíquias:</p>
+                <p style="font-size: 0.7em;">Obs: para o 100%, é necessário relíquia Sapphire ou Gold.</p><br>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">N. Sanity Beach</th>
+                        </tr>
+                        <tr>
+                            <th>Relíquia</th>
+                            <th>Tempo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="reliquia">Sapphire</td>
+                            <td class="reliquia">0:34:00</td>
+                        </tr>
+                        <tr>
+                            <td class="reliquia">Gold</td>
+                            <td class="reliquia">0:28:26</td>
+                        </tr>
+                        <tr>
+                            <td>Platinum</td>
+                            <td>0:25:76</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
-            <p>Objetivo: Destruir todas as caixas.</p>
+
             
         </section>
     </main>

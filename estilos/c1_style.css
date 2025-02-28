@@ -1,17 +1,5 @@
 @charset "UTF-08";
 
-/* 
-    VERSÃO MOBILE
-
-    CORES
-        #3D21C7 body
-        #2800F0
-        #46359E 
-        #413870 
-        #322E45 body
-        #1f1c2b
-*/
-
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
@@ -85,36 +73,38 @@ body{
     box-shadow: 0px 0px 5px black;
 }
 
-.conteudo img{
-    width: 180px;
-    height: 250px;
-}
-
-.jogo h2{
-    padding: 10px 20px;
-    
-}
-
-.conteudo{
+.header_conteudo{
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.192);
+    border-radius: 10px;
     padding: 20px;
 }
 
-.conquistas{
-    font-size: 0.7em;
-    color: white;
-    padding-left: 20px;
+.conteudo_fase{
     text-align: justify;
+    padding-top: 20px;
+    padding: 20px;
 }
 
-.conquistas a{
-    color: yellow;
-    font-weight: bold;
+.conteudo_fase img{
+    width: 440px;
+    margin-bottom: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.conteudo_fase .gema{
+    width: 50px;
 }
 
+table{
+    width: 200px;
+    border-collapse: collapse;
+}
+table td,th{
+    border: 1px solid white;
+    padding: 5px;
+}
+table .reliquia{
+    background-color: rgba(255, 255, 0, 0.192);
+}
