@@ -19,7 +19,7 @@ body{
 
 .header{
     background-color: #1f1c2b;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 9.1rem;
     box-shadow: 0px 0px 5px black;
 }
